@@ -1,0 +1,12 @@
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\bin\Debug\net8.0\lolja_MODELOS.deps.json
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\bin\Debug\net8.0\lolja_MODELOS.dll
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\bin\Debug\net8.0\lolja_MODELOS.pdb
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\obj\Debug\net8.0\lolja_MODELOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\obj\Debug\net8.0\lolja_MODELOS.AssemblyInfoInputs.cache
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\obj\Debug\net8.0\lolja_MODELOS.AssemblyInfo.cs
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\obj\Debug\net8.0\lolja_MODELOS.csproj.CoreCompileInputs.cache
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\obj\Debug\net8.0\lolja_MODELOS.sourcelink.json
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\obj\Debug\net8.0\lolja_MODELOS.dll
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\obj\Debug\net8.0\refint\lolja_MODELOS.dll
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\obj\Debug\net8.0\lolja_MODELOS.pdb
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\obj\Debug\net8.0\ref\lolja_MODELOS.dll
