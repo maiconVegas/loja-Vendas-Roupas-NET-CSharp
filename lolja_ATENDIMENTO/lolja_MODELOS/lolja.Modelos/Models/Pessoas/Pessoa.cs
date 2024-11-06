@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lolja_MODELOS.lolja.Modelos.Models.Pessoas
 {
-    internal abstract class Pessoa
+    public abstract class Pessoa
     {
     }
 }

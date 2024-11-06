@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{164B0172-DABB-43EE-B0F1-EFE1FD555257}|lolja_MODELOS\\lolja_MODELOS.csproj|c:\\users\\maicon lipa\\desktop\\loja-vendas-roupas-net-csharp\\lolja_atendimento\\lolja_modelos\\lolja.modelos\\models\\pessoas\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{164B0172-DABB-43EE-B0F1-EFE1FD555257}|lolja_MODELOS\\lolja_MODELOS.csproj|solutionrelative:lolja_modelos\\lolja.modelos\\models\\pessoas\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E40827D-A02B-48DC-8E17-A35160E518E3}|lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj|c:\\users\\maicon lipa\\desktop\\loja-vendas-roupas-net-csharp\\lolja_atendimento\\lolja_atendimento\\lolja.atendimento\\loljaatendimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E40827D-A02B-48DC-8E17-A35160E518E3}|lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj|solutionrelative:lolja_atendimento\\lolja.atendimento\\loljaatendimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -91,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{164B0172-DABB-43EE-B0F1-EFE1FD555257}|lolja_MODELOS\\lolja_MODELOS.csproj|solutionrelative:lolja_modelos\\lolja.modelos\\models\\pessoas\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{164B0172-DABB-43EE-B0F1-EFE1FD555257}|lolja_MODELOS\\lolja_MODELOS.csproj|c:\\users\\maicon lipa\\desktop\\loja-vendas-roupas-net-csharp\\lolja_atendimento\\lolja_modelos\\lolja.modelos\\models\\pessoas\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{164B0172-DABB-43EE-B0F1-EFE1FD555257}|lolja_MODELOS\\lolja_MODELOS.csproj|solutionrelative:lolja_modelos\\lolja.modelos\\models\\pessoas\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E40827D-A02B-48DC-8E17-A35160E518E3}|lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj|c:\\users\\maicon lipa\\desktop\\loja-vendas-roupas-net-csharp\\lolja_atendimento\\lolja_atendimento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E40827D-A02B-48DC-8E17-A35160E518E3}|lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj|solutionrelative:lolja_atendimento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -106,11 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoljaAtendimento.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO\\lolja.Atendimento\\LoljaAtendimento.cs",
               "RelativeDocumentMoniker": "lolja_ATENDIMENTO\\lolja.Atendimento\\LoljaAtendimento.cs",
@@ -123,20 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InterfaceAnalista.cs",
-              "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceAnalista.cs",
-              "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceAnalista.cs",
-              "ToolTip": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceAnalista.cs",
-              "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceAnalista.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:18:40.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InterfaceVendedor.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceVendedor.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceVendedor.cs",
@@ -144,12 +131,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceVendedor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:18:21.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:18:21.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "InterfaceCliente.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceCliente.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceCliente.cs",
@@ -157,12 +143,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceCliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:18:12.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:18:12.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "InterfaceInicio.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceInicio.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceInicio.cs",
@@ -170,12 +155,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceInicio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:17:48.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:17:48.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EstoqueService.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Services\\EstoqueService.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Services\\EstoqueService.cs",
@@ -183,12 +167,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Services\\EstoqueService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:17:08.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:17:08.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "VendaService.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Services\\VendaService.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Services\\VendaService.cs",
@@ -196,12 +179,36 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Services\\VendaService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:16:59.667Z",
+              "WhenOpened": "2024-11-06T18:16:59.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Pessoa.cs",
+              "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Pessoa.cs",
+              "ToolTip": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Pessoa.cs",
+              "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T18:04:50.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "InterfaceAnalista.cs",
+              "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceAnalista.cs",
+              "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceAnalista.cs",
+              "ToolTip": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceAnalista.cs",
+              "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Views\\InterfaceAnalista.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T18:18:40.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Services\\UsuarioService.cs",
@@ -209,12 +216,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Services\\UsuarioService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:16:49.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:16:49.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ItemVenda.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Vendas\\ItemVenda.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Vendas\\ItemVenda.cs",
@@ -222,12 +228,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Vendas\\ItemVenda.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:15:27.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:15:27.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Venda.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Vendas\\Venda.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Vendas\\Venda.cs",
@@ -235,12 +240,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Vendas\\Venda.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:15:18.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:15:18.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Estoque.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Produtos\\Estoque.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Produtos\\Estoque.cs",
@@ -248,12 +252,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Produtos\\Estoque.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:10:40.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:10:40.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Produtos\\Categoria.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Produtos\\Categoria.cs",
@@ -261,12 +264,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Produtos\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:10:32.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:10:32.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Produtos\\Produto.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Produtos\\Produto.cs",
@@ -274,12 +276,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Produtos\\Produto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:10:23.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:10:23.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Estado.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Enderecos\\Estado.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Enderecos\\Estado.cs",
@@ -287,12 +288,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Enderecos\\Estado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:09:51.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:09:51.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Cidade.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Enderecos\\Cidade.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Enderecos\\Cidade.cs",
@@ -300,12 +300,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Enderecos\\Cidade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:09:45.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:09:45.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Endereco.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Enderecos\\Endereco.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Enderecos\\Endereco.cs",
@@ -313,12 +312,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Enderecos\\Endereco.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:09:39.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:09:39.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "IAutenticavel.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Interfaces\\IAutenticavel.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Interfaces\\IAutenticavel.cs",
@@ -326,12 +324,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Interfaces\\IAutenticavel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:08:59.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:08:59.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "FuncionarioAutenticavel.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\FuncionarioAutenticavel.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\FuncionarioAutenticavel.cs",
@@ -339,12 +336,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\FuncionarioAutenticavel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:07:31.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:07:31.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Analista.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Analista.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Analista.cs",
@@ -352,12 +348,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Analista.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:07:08.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:07:08.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Vendedor.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Vendedor.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Vendedor.cs",
@@ -365,12 +360,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Vendedor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:07:02.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:07:02.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Funcionario.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Funcionario.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Funcionario.cs",
@@ -378,12 +372,11 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Funcionario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:06:48.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:06:48.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Cliente.cs",
               "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Cliente.cs",
@@ -391,21 +384,7 @@
               "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:05:30.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Pessoa.cs",
-              "DocumentMoniker": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Pessoa.cs",
-              "RelativeDocumentMoniker": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Pessoa.cs",
-              "ToolTip": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Pessoa.cs",
-              "RelativeToolTip": "lolja_MODELOS\\lolja.Modelos\\Models\\Pessoas\\Pessoa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:04:50.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:05:30.93Z"
             },
             {
               "$type": "Document",
@@ -417,8 +396,7 @@
               "RelativeToolTip": "lolja_ATENDIMENTO\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T17:57:22.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T17:57:22.154Z"
             }
           ]
         }
