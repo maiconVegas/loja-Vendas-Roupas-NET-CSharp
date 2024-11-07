@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace lolja_MODELOS.lolja.Modelos.Models.Enderecos
 {
-    internal class Cidade
+    public class Cidade
     {
+        public string Nome { get; private set; }
+        public Estado EstadoCidade{ get; private set; }
+
+        public Cidade(string nome, Estado estado)
+        {
+            Nome = nome;
+            EstadoCidade = estado;
+        }
     }
 }

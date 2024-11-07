@@ -1,4 +1,7 @@
-﻿using lolja_MODELOS.lolja.Modelos.Models.Produtos;
+﻿using lolja_MODELOS.lolja.Modelos.Models.Enderecos;
+using lolja_MODELOS.lolja.Modelos.Models.Pessoas;
+using lolja_MODELOS.lolja.Modelos.Models.Produtos;
+using static lolja_MODELOS.lolja.Modelos.Models.Enderecos.Estado;
 
 
 
@@ -140,3 +143,110 @@ foreach (var item in estoque.Itens)
 #endregion
 
 Console.WriteLine();
+
+
+//teste 5 - estado
+Estado estado = new Estado(Estado.SiglaEstado.SP);
+var estado1 = new Estado(Estado.SiglaEstado.RS);
+Console.WriteLine($"Estado: {estado.Nome} - Sigla: {estado.Sigla}");
+Console.WriteLine($"Estado: {estado1.Nome} - Sigla: {estado1.Sigla}");
+
+
+// teste 6 - Testando Endereços
+Console.WriteLine("/////////////////////////////   TESTANDO ENDEREÇOS   ////////////////////");
+
+//Endereco endereco1 = new Endereco("Rua Neves de Carvalho", 168, "Bom Retiro","01132-010", new Cidade("São Paulo", new Estado(Estado.SiglaEstado.SP)));
+
+//Console.WriteLine(endereco1.Rua);
+//Console.WriteLine(endereco1.Numero);
+//Console.WriteLine(endereco1.Bairro);
+//Console.WriteLine(endereco1.CEP);
+//Console.WriteLine(endereco1.CidadeEndereco.Nome);
+//Console.WriteLine(endereco1.CidadeEndereco.EstadoCidade.Nome);
+//Console.WriteLine(endereco1.CidadeEndereco.EstadoCidade.Sigla);
+
+// Criando 5 endereços em São Paulo
+var estadoSP = new Estado(SiglaEstado.SP);
+var cidadeSaoPaulo = new Cidade("São Paulo", estadoSP);
+
+var endereco1 = new Endereco("Rua Neves de Carvalho", 190, "Bom Retiro", "01132-010", cidadeSaoPaulo);
+var endereco2 = new Endereco("Avenida Paulista", 1234, "Bela Vista", "01310-000", cidadeSaoPaulo);
+var endereco3 = new Endereco("Rua dos Três Irmãos", 56, "Vila Progredior", "02345-000", cidadeSaoPaulo);
+var endereco4 = new Endereco("Rua da Consolação", 908, "Consolação", "01301-000", cidadeSaoPaulo);
+var endereco5 = new Endereco("Alameda Santos", 120, "Jardins", "01419-000", cidadeSaoPaulo);
+
+// Criando 5 endereços em outros estados
+var estadoRJ = new Estado(SiglaEstado.RJ);
+var cidadeRioDeJaneiro = new Cidade("Rio de Janeiro", estadoRJ);
+var endereco6 = new Endereco("Rua do Ouvidor", 100, "Centro", "20040-010", cidadeRioDeJaneiro);
+
+var estadoMG = new Estado(SiglaEstado.MG);
+var cidadeBeloHorizonte = new Cidade("Belo Horizonte", estadoMG);
+var endereco7 = new Endereco("Avenida Afonso Pena", 2500, "Centro", "30130-000", cidadeBeloHorizonte);
+
+var estadoBA = new Estado(SiglaEstado.BA);
+var cidadeSalvador = new Cidade("Salvador", estadoBA);
+var endereco8 = new Endereco("Rua do Bonfim", 123, "Bonfim", "40301-000", cidadeSalvador);
+
+var estadoPR = new Estado(SiglaEstado.PR);
+var cidadeCuritiba = new Cidade("Curitiba", estadoPR);
+var endereco9 = new Endereco("Rua XV de Novembro", 500, "Centro", "80010-000", cidadeCuritiba);
+
+var estadoRS = new Estado(SiglaEstado.RS);
+var cidadePortoAlegre = new Cidade("Porto Alegre", estadoRS);
+var endereco10 = new Endereco("Rua dos Andradas", 1000, "Centro", "90010-000", cidadePortoAlegre);
+
+// Exibindo as informações dos 10 endereços
+var enderecos = new[] { endereco1, endereco2, endereco3, endereco4, endereco5,
+                               endereco6, endereco7, endereco8, endereco9, endereco10 };
+
+foreach (var endereco in enderecos)
+{
+    Console.WriteLine($"Rua: {endereco.Rua}");
+    Console.WriteLine($"Número: {endereco.Numero}");
+    Console.WriteLine($"Bairro: {endereco.Bairro}");
+    Console.WriteLine($"CEP: {endereco.CEP}");
+    Console.WriteLine($"Cidade: {endereco.CidadeEndereco.Nome}");
+    Console.WriteLine($"Estado: {endereco.CidadeEndereco.EstadoCidade.Nome} ({endereco.CidadeEndereco.EstadoCidade.Sigla})");
+    Console.WriteLine();
+}
+
+
+// Teste 7 - testando a classe cliente
+Console.WriteLine("/////////////////////////////   TESTANDO CLASSE CLIENTE   ////////////////////");
+Cliente cliente1 = new Cliente("Maicon", "934.333.098-90", "123");
+//Console.WriteLine(cliente1.ID_Cliente);
+cliente1.Email = "aaa@email.com";
+//Console.WriteLine(cliente1.Autenticar("aaa@email.com", "123"));
+
+Cliente cliente2 = new Cliente("Marcelo", 21, "923.234.223-99", endereco5, "999");
+cliente2.Email = "cliente@email.com";
+Console.WriteLine(cliente2.EnderecoPessoa.CidadeEndereco.Nome);
+Console.WriteLine(cliente2.Idade);
+Console.WriteLine(cliente2.Nome);
+Console.WriteLine(cliente2.Email);
+Console.WriteLine(cliente2.Autenticar("cliente@email.com", "999"));
+
+
+// Teste 8 - testando a classe analista e vendedor
+Console.WriteLine("/////////////////////////////   TESTANDO CLASSE ANALISTA E VENDEDOR   ////////////////////");
+
+Analista miguel = new Analista(2900, "Miguel", "933.333.333-99", "abc");
+miguel.Email = "miguel@email.com";
+Console.WriteLine(miguel.Autenticar("miguel@email.com", "abc"));
+Console.WriteLine(miguel.ID_Analista);
+Console.WriteLine(miguel.Cargo);
+Console.WriteLine();
+
+Vendedor santos = new Vendedor(3900, "Santos", "111.111.111011", "zzz");
+santos.Email = "santos@email.com";
+Console.WriteLine(santos.Autenticar("santos@email.com", "zzz"));
+Console.WriteLine(santos.Cargo);
+Console.WriteLine(santos.ID_Vendedor);
+santos.EnderecoPessoa = endereco4;
+Console.WriteLine(santos.EnderecoPessoa.CEP);
+
+
+// Teste 9 - 
+
+

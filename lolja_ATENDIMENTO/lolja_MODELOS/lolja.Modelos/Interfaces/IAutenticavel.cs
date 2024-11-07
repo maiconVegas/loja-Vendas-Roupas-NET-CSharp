@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace lolja_MODELOS.lolja.Modelos.Interfaces
 {
-    internal interface IAutenticavel
+    public interface IAutenticavel
     {
+        bool Autenticar(string email, string senha);
     }
 }
