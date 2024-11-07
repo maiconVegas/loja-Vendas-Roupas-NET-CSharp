@@ -132,6 +132,13 @@ Console.WriteLine(estoque.ObterQuantidade(camisetaAnime));
 Console.WriteLine(estoque.ObterQuantidade(camisetaBatman));
 Console.WriteLine(estoque.ObterQuantidade(camisetaStarWars));
 
+
+//for (int i = 0; i < estoque.Itens.Count; i++)
+//{
+//    Console.WriteLine($" tem {i} no estoque");
+//    Console.WriteLine($"TEM: {estoque.Itens.ElementAt(i).Key.categoriaRoupa.Nome}");
+//}
+
 foreach (var item in estoque.Itens)
 {
     Console.WriteLine(item.Key.Nome);
@@ -247,6 +254,10 @@ santos.EnderecoPessoa = endereco4;
 Console.WriteLine(santos.EnderecoPessoa.CEP);
 
 
-// Teste 9 - 
+// Teste 9 - datas
 
+Console.WriteLine("/////////////////////////////   TESTANDO Datas kkkkkk   ////////////////////");
+
+DateTime data = DateTime.Now;
+Console.WriteLine(data);
 

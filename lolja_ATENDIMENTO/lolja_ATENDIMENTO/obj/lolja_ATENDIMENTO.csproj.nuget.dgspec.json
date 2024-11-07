@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj": {}
+    "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj": {
+    "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj",
+        "projectUniqueName": "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj",
         "projectName": "lolja_ATENDIMENTO",
-        "projectPath": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj",
-        "packagesPath": "C:\\Users\\Maicon Lipa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO\\obj\\",
+        "projectPath": "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj",
+        "packagesPath": "C:\\Users\\maico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maicon Lipa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja_MODELOS.csproj": {
-                "projectPath": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja_MODELOS.csproj"
+              "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja_MODELOS.csproj": {
+                "projectPath": "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja_MODELOS.csproj"
               }
             }
           }
@@ -69,17 +68,17 @@
         }
       }
     },
-    "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja_MODELOS.csproj": {
+    "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja_MODELOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja_MODELOS.csproj",
+        "projectUniqueName": "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja_MODELOS.csproj",
         "projectName": "lolja_MODELOS",
-        "projectPath": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja_MODELOS.csproj",
-        "packagesPath": "C:\\Users\\Maicon Lipa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\obj\\",
+        "projectPath": "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja_MODELOS.csproj",
+        "packagesPath": "C:\\Users\\maico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maicon Lipa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +86,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

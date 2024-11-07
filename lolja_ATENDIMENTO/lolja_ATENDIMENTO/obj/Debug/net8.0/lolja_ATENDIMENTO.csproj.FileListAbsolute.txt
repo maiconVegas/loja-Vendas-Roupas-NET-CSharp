@@ -17,3 +17,22 @@ C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lol
 C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_ATENDIMENTO.pdb
 C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_ATENDIMENTO.genruntimeconfig.cache
 C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\ref\lolja_ATENDIMENTO.dll
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\bin\Debug\net8.0\lolja_ATENDIMENTO.exe
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\bin\Debug\net8.0\lolja_ATENDIMENTO.deps.json
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\bin\Debug\net8.0\lolja_ATENDIMENTO.runtimeconfig.json
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\bin\Debug\net8.0\lolja_ATENDIMENTO.dll
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\bin\Debug\net8.0\lolja_ATENDIMENTO.pdb
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\bin\Debug\net8.0\lolja_MODELOS.dll
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\bin\Debug\net8.0\lolja_MODELOS.pdb
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_ATENDIMENTO.csproj.AssemblyReference.cache
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_ATENDIMENTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_ATENDIMENTO.AssemblyInfoInputs.cache
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_ATENDIMENTO.AssemblyInfo.cs
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_ATENDIMENTO.csproj.CoreCompileInputs.cache
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_ATENDIMENTO.sourcelink.json
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_AT.4578D5BD.Up2Date
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_ATENDIMENTO.dll
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\refint\lolja_ATENDIMENTO.dll
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_ATENDIMENTO.pdb
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_ATENDIMENTO.genruntimeconfig.cache
+C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\ref\lolja_ATENDIMENTO.dll
