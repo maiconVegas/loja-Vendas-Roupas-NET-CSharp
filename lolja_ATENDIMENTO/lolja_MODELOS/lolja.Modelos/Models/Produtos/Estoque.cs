@@ -27,12 +27,14 @@ namespace lolja_MODELOS.lolja.Modelos.Models.Produtos
             }
         }
 
-        public void RemoverProduto(Produto produto, int quantidade)
+        public int RemoverProduto(Produto produto, int quantidade)
         {
             if (Itens.ContainsKey(produto) && Itens[produto] >= quantidade)
             {
                 Itens[produto] -= quantidade;
+                return quantidade;
             }
+            return 0;
         }
 
         public int ObterQuantidade(Produto produto)

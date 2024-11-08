@@ -1,0 +1,46 @@
+{
+  "ID_Venda": "35cb2db6-52e2-4907-8acd-b205bfc6b5c6",
+  "Data_Venda": "2024-11-08T11:51:18.8097637-03:00",
+  "Comprador": {
+    "ID_Cliente": "5e46dc0c-54e9-4d27-8988-aa22001dffcc",
+    "Nome": "Maicon",
+    "Idade": 0,
+    "Email": "aaa@email.com",
+    "EnderecoPessoa": null
+  },
+  "ItensVenda": [
+    {
+      "Item": {
+        "ID_Produto": "2257a252-0b59-4c13-bc52-e95d7b36d7fc",
+        "Nome": "Camiseta Anime",
+        "Descricao": "Camiseta com estampa do anime Demon Slayer",
+        "Preco": 39.9,
+        "Tamanho": "G",
+        "Cor": "Azul",
+        "categoriaRoupa": {
+          "ID_Categoria": 47434,
+          "Nome": "Camisetas",
+          "Descricao": "Roupas de manga curta para diversas ocasiões."
+        }
+      },
+      "Quantidade": 2
+    },
+    {
+      "Item": {
+        "ID_Produto": "6fb6ab91-45a1-48fc-8511-8ef398d18786",
+        "Nome": "Camiseta Batman",
+        "Descricao": "Camiseta com estampa do Batman",
+        "Preco": 49.9,
+        "Tamanho": "M",
+        "Cor": "Preto",
+        "categoriaRoupa": {
+          "ID_Categoria": 47434,
+          "Nome": "Camisetas",
+          "Descricao": "Roupas de manga curta para diversas ocasiões."
+        }
+      },
+      "Quantidade": 3
+    }
+  ],
+  "Preco_Total": 229.5
+}

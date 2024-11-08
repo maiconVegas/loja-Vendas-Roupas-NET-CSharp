@@ -15,7 +15,23 @@ namespace lolja_MODELOS.lolja.Modelos.Models.Vendas
         public List<ItemVenda> ItensVenda { get; private set; }
         public double Preco_Total { get; private set; }
 
+        public Venda(Cliente comprador, List<ItemVenda> itensVenda)
+        {
+            ID_Venda = Guid.NewGuid().ToString();
+            Data_Venda = DateTime.Now;
+            Comprador = comprador;
+            ItensVenda = itensVenda;
+            Preco_Total = CalcularPrecoTotal();
+        }
 
-
+        private double CalcularPrecoTotal()
+        {
+            double total = 0;
+            foreach (var item in ItensVenda)
+            {
+                total += item.Item.Preco * item.Quantidade;
+            }
+            return total;
+        }
     }
 }

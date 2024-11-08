@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AsYIczViG+U=",
+  "dgSpecHash": "0tbLM1qBJk8=",
   "success": true,
   "projectFilePath": "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO\\lolja_ATENDIMENTO.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\maico\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
