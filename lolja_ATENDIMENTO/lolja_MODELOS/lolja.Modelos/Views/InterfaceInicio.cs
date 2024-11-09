@@ -11,13 +11,19 @@ namespace lolja_MODELOS.lolja.Modelos.Views
     {
         public void IniciarInterface()
         {
+            
+
             TituloInicioUtil titulo = new TituloInicioUtil();
             titulo.TituloInicio();
             Console.WriteLine("\n\n\n\n\n\n");
-            Console.Write("Digite algo: ");
-            Console.ReadLine();
+            Console.WriteLine("Você é:");
+            Console.WriteLine("1 - Analista");
+            Console.WriteLine("2 - Vendedor");
+            Console.WriteLine("3 - Cliente");
+            Console.WriteLine("4 - SAIR");
+            Console.Write("ESCOLHA:   ");
         }
-        
+
         
     }
 }

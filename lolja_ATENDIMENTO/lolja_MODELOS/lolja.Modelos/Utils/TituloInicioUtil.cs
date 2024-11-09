@@ -12,19 +12,19 @@ namespace lolja_MODELOS.lolja.Modelos.Utils
         {
             string welcomeText = "                Bem-vindo à LOLJA!                ";
             Console.WriteLine(" ");
-            Console.WriteLine("   ██╗      ██████╗  ██╗           ██╗  █████╗    ");
-            Console.WriteLine("   ██║     ██╔═══██╗ ██║           ██║ ██╔══██╗   ");
-            Console.WriteLine("   ██║     ██║   ██║ ██║           ██║ ███████║   ");
-            Console.WriteLine("   ██║     ██║   ██║ ██║      ██   ██║ ██╔══██║   ");
-            Console.WriteLine("   ███████╗╚██████╔╝ ███████╗ ╚█████╔╝ ██║  ██║   ");
-            Console.WriteLine("   ╚══════╝ ╚═════╝  ╚══════╝  ╚════╝  ╚═╝  ╚═╝   ");
+            Console.WriteLine("   ██╗       ██████╗  ██╗           ██╗  █████╗    ");
+            Console.WriteLine("   ██║      ██╔═══██╗ ██║           ██║ ██╔══██╗   ");
+            Console.WriteLine("   ██║      ██║   ██║ ██║           ██║ ███████║   ");
+            Console.WriteLine("   ██║      ██║   ██║ ██║      ██   ██║ ██╔══██║   ");
+            Console.WriteLine("   ███████╗ ╚██████╔╝ ███████╗ ╚█████╔╝ ██║  ██║   ");
+            Console.WriteLine("   ╚══════╝  ╚═════╝  ╚══════╝  ╚════╝  ╚═╝  ╚═╝   ");
             Console.WriteLine("                                                  ");
             Console.WriteLine(" ");
             foreach (char letter in welcomeText)
             {
 
                 Console.Write(letter);
-                Thread.Sleep(50);
+                Thread.Sleep(20);
 
             }
             

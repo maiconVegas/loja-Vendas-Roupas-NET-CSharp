@@ -42,6 +42,19 @@ namespace lolja_MODELOS.lolja.Modelos.Models.Produtos
             return Itens.ContainsKey(produto) ? Itens[produto] : 0;
         }
 
+        //public override string ToString()
+        //{
+            
+        //    return $" === Produto ===\n" +
+        //               $"Nome: {this.Itens.ElementAt().Key.Nome}\n" +
+        //               $"Descrição: {this.Itens.Key.Descricao}\n" +
+        //               $"Preço: {this.Itens.Key.Preco}\n" +
+        //               $"Tamanho: {this.Itens.Key.Tamanho}\n" +
+        //               $"Cor: {this.Itens.Key.Cor}\n" +
+        //               $"Categoria: {this.Itens.Key.categoriaRoupa.Nome}\n" +
+        //               $": {this.Itens.Key.categoriaRoupa.Descricao}\n" +
+        //               $"Quantidade: {this.Itens.Value}\n\n\n"; ;
+        //}
 
     }
 }
