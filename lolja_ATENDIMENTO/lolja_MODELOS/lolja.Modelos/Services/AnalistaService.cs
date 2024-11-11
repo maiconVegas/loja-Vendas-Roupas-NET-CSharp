@@ -74,25 +74,6 @@ namespace lolja_MODELOS.lolja.Modelos.Services
             Console.ReadKey();
             Console.Clear();
         }
-        //public void ExportarVendas(List<Venda> vendas)
-        //{
-            
-        //}
-        //public void ExportarVendedores()
-        //{
-
-        //}
-        //public void ExportarClientes()
-        //{
-
-        //}
-        //public void Estoque()
-        //{
-
-        //}
-        public void Sair()
-        {
-
-        }
+        
     }
 }

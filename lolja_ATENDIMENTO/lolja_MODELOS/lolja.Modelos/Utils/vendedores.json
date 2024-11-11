@@ -1,0 +1,68 @@
+[
+  {
+    "ID_Vendedor": "aef2ab74-89b4-4803-951a-49e59be4e30e",
+    "Cargo": "Vendedor",
+    "Salario": 3000.0,
+    "Nome": "Roberto Lima",
+    "Idade": 25,
+    "CPF": "345.678.901-23",
+    "Email": "robertolima.vendedor@email.com",
+    "EnderecoPessoa": {
+      "Rua": "Avenida Afonso Pena",
+      "Numero": 550,
+      "Bairro": "Centro",
+      "CEP": "30130-002",
+      "CidadeEndereco": {
+        "Nome": "Belo Horizonte",
+        "EstadoCidade": {
+          "Nome": "Minas Gerais",
+          "Sigla": 12
+        }
+      }
+    }
+  },
+  {
+    "ID_Vendedor": "820f9f77-ff60-418a-90c5-31d824f6cc0e",
+    "Cargo": "Vendedor",
+    "Salario": 3500.0,
+    "Nome": "Tatiane Souza",
+    "Idade": 28,
+    "CPF": "456.789.012-34",
+    "Email": "tatianesouza.vendedor@email.com",
+    "EnderecoPessoa": {
+      "Rua": "Avenida Atlântica",
+      "Numero": 1300,
+      "Bairro": "Copacabana",
+      "CEP": "22021-001",
+      "CidadeEndereco": {
+        "Nome": "Rio de Janeiro",
+        "EstadoCidade": {
+          "Nome": "Rio de Janeiro",
+          "Sigla": 18
+        }
+      }
+    }
+  },
+  {
+    "ID_Vendedor": "4a46d3b0-ac17-40ed-a8f3-775fcae94d11",
+    "Cargo": "Vendedor",
+    "Salario": 4000.0,
+    "Nome": "Gustavo Costa",
+    "Idade": 35,
+    "CPF": "567.890.123-45",
+    "Email": "gustavocosta.vendedor@email.com",
+    "EnderecoPessoa": {
+      "Rua": "Rua Augusta",
+      "Numero": 200,
+      "Bairro": "Cerqueira César",
+      "CEP": "01412-002",
+      "CidadeEndereco": {
+        "Nome": "São Paulo",
+        "EstadoCidade": {
+          "Nome": "São Paulo",
+          "Sigla": 25
+        }
+      }
+    }
+  }
+]

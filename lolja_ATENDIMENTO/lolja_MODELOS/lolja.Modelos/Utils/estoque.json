@@ -1,0 +1,379 @@
+{
+  "c92b4a2c-6ec9-4f09-8ed3-8796b7d276a6": {
+    "Nome": "Camiseta Anime",
+    "Descrição": "Camiseta com estampa do anime Demon Slayer",
+    "Preço": 39.9,
+    "Tamanho": "G",
+    "Cor": "Azul",
+    "Categoria": {
+      "ID_Categoria": 20533,
+      "Nome": "Camisetas",
+      "Descrição": "Roupas de manga curta para diversas ocasiões."
+    },
+    "Quantidade": 22
+  },
+  "e52377ee-e55a-42ee-aedb-be9e7ddd0a9b": {
+    "Nome": "Camiseta Batman",
+    "Descrição": "Camiseta com estampa do Batman",
+    "Preço": 49.9,
+    "Tamanho": "M",
+    "Cor": "Preto",
+    "Categoria": {
+      "ID_Categoria": 20533,
+      "Nome": "Camisetas",
+      "Descrição": "Roupas de manga curta para diversas ocasiões."
+    },
+    "Quantidade": 50
+  },
+  "db10f1ee-b2b3-4f30-9a73-e396220a5ccf": {
+    "Nome": "Camiseta Star Wars",
+    "Descrição": "Camiseta com estampa do Star Wars",
+    "Preço": 59.9,
+    "Tamanho": "P",
+    "Cor": "Branco",
+    "Categoria": {
+      "ID_Categoria": 20533,
+      "Nome": "Camisetas",
+      "Descrição": "Roupas de manga curta para diversas ocasiões."
+    },
+    "Quantidade": 40
+  },
+  "242fc426-da34-47b8-83c9-0875d2b389a1": {
+    "Nome": "Jeans Slim",
+    "Descrição": "Calça jeans modelo slim fit",
+    "Preço": 129.9,
+    "Tamanho": "M",
+    "Cor": "Azul",
+    "Categoria": {
+      "ID_Categoria": 30018,
+      "Nome": "Calças",
+      "Descrição": "Diversos tipos de calças, incluindo jeans, leggings e outros."
+    },
+    "Quantidade": 25
+  },
+  "02e60c04-171e-47db-a077-ea11a482c183": {
+    "Nome": "Legging Fitness",
+    "Descrição": "Legging preta para academia",
+    "Preço": 89.9,
+    "Tamanho": "G",
+    "Cor": "Preto",
+    "Categoria": {
+      "ID_Categoria": 30018,
+      "Nome": "Calças",
+      "Descrição": "Diversos tipos de calças, incluindo jeans, leggings e outros."
+    },
+    "Quantidade": 35
+  },
+  "fbd93b48-bb5a-45c0-867b-7a17e989d249": {
+    "Nome": "Calça Moletom",
+    "Descrição": "Calça de moletom confortável",
+    "Preço": 79.9,
+    "Tamanho": "M",
+    "Cor": "Cinza",
+    "Categoria": {
+      "ID_Categoria": 30018,
+      "Nome": "Calças",
+      "Descrição": "Diversos tipos de calças, incluindo jeans, leggings e outros."
+    },
+    "Quantidade": 20
+  },
+  "4db3f9e3-1ac0-4f2f-8597-650ad88a07ae": {
+    "Nome": "Vestido Floral",
+    "Descrição": "Vestido com estampa floral, ideal para o verão",
+    "Preço": 149.9,
+    "Tamanho": "P",
+    "Cor": "Rosa",
+    "Categoria": {
+      "ID_Categoria": 33119,
+      "Nome": "Vestidos",
+      "Descrição": "Vestidos de diferentes estilos, ideais para várias ocasiões."
+    },
+    "Quantidade": 15
+  },
+  "aca58f13-51e2-43db-b018-f3facefd437c": {
+    "Nome": "Vestido Longo",
+    "Descrição": "Vestido longo com detalhes em renda",
+    "Preço": 199.9,
+    "Tamanho": "G",
+    "Cor": "Branco",
+    "Categoria": {
+      "ID_Categoria": 33119,
+      "Nome": "Vestidos",
+      "Descrição": "Vestidos de diferentes estilos, ideais para várias ocasiões."
+    },
+    "Quantidade": 10
+  },
+  "4e2fbc38-0a10-4415-a010-80d589efdd92": {
+    "Nome": "Vestido Midi",
+    "Descrição": "Vestido midi com detalhes em botões",
+    "Preço": 179.9,
+    "Tamanho": "M",
+    "Cor": "Preto",
+    "Categoria": {
+      "ID_Categoria": 33119,
+      "Nome": "Vestidos",
+      "Descrição": "Vestidos de diferentes estilos, ideais para várias ocasiões."
+    },
+    "Quantidade": 18
+  },
+  "a3f75e60-f341-42a7-9ca4-1a37731c9b77": {
+    "Nome": "Blusa Cropped",
+    "Descrição": "Blusa cropped de manga curta",
+    "Preço": 69.9,
+    "Tamanho": "M",
+    "Cor": "Azul",
+    "Categoria": {
+      "ID_Categoria": 67810,
+      "Nome": "Blusas",
+      "Descrição": "Blusas de diferentes modelos e tecidos."
+    },
+    "Quantidade": 30
+  },
+  "857a0d12-d55f-4784-98f1-359f9e5f7914": {
+    "Nome": "Blusa de Frio",
+    "Descrição": "Blusa de frio para o inverno",
+    "Preço": 119.9,
+    "Tamanho": "G",
+    "Cor": "Preto",
+    "Categoria": {
+      "ID_Categoria": 67810,
+      "Nome": "Blusas",
+      "Descrição": "Blusas de diferentes modelos e tecidos."
+    },
+    "Quantidade": 20
+  },
+  "97646b42-e9ef-4ca0-b377-d6369b3c3899": {
+    "Nome": "Blusa de Tricot",
+    "Descrição": "Blusa de tricot para o inverno",
+    "Preço": 89.9,
+    "Tamanho": "M",
+    "Cor": "Bege",
+    "Categoria": {
+      "ID_Categoria": 67810,
+      "Nome": "Blusas",
+      "Descrição": "Blusas de diferentes modelos e tecidos."
+    },
+    "Quantidade": 25
+  },
+  "b6d1e7cf-7631-4b3f-8445-7b8f4446bfbb": {
+    "Nome": "Jaqueta Jeans",
+    "Descrição": "Jaqueta jeans estilo oversized",
+    "Preço": 159.9,
+    "Tamanho": "G",
+    "Cor": "Azul",
+    "Categoria": {
+      "ID_Categoria": 89846,
+      "Nome": "Jaquetas",
+      "Descrição": "Jaquetas e casacos para o inverno e moda urbana."
+    },
+    "Quantidade": 12
+  },
+  "bfbecf73-4463-4e39-b53f-7ecd9691a0c0": {
+    "Nome": "Jaqueta de Couro",
+    "Descrição": "Jaqueta de couro preta",
+    "Preço": 249.9,
+    "Tamanho": "M",
+    "Cor": "Preto",
+    "Categoria": {
+      "ID_Categoria": 89846,
+      "Nome": "Jaquetas",
+      "Descrição": "Jaquetas e casacos para o inverno e moda urbana."
+    },
+    "Quantidade": 8
+  },
+  "9f41d1a7-e324-4c25-b9f5-7fce4fb86dc3": {
+    "Nome": "Jaqueta Parka",
+    "Descrição": "Jaqueta parka de inverno",
+    "Preço": 199.9,
+    "Tamanho": "P",
+    "Cor": "Verde",
+    "Categoria": {
+      "ID_Categoria": 89846,
+      "Nome": "Jaquetas",
+      "Descrição": "Jaquetas e casacos para o inverno e moda urbana."
+    },
+    "Quantidade": 10
+  },
+  "5cc028ff-63c9-416b-a444-e4f6ab318125": {
+    "Nome": "Saia Jeans",
+    "Descrição": "Saia jeans com lavagem escura",
+    "Preço": 89.9,
+    "Tamanho": "M",
+    "Cor": "Azul",
+    "Categoria": {
+      "ID_Categoria": 57443,
+      "Nome": "Saia",
+      "Descrição": "Saia para diferentes estilos, como curtas, longas e midi."
+    },
+    "Quantidade": 20
+  },
+  "a3ca48d8-6443-4652-86d0-cff297a941ed": {
+    "Nome": "Saia Midi",
+    "Descrição": "Saia midi com cinto",
+    "Preço": 129.9,
+    "Tamanho": "G",
+    "Cor": "Bege",
+    "Categoria": {
+      "ID_Categoria": 57443,
+      "Nome": "Saia",
+      "Descrição": "Saia para diferentes estilos, como curtas, longas e midi."
+    },
+    "Quantidade": 15
+  },
+  "a67543b9-7110-4bf4-b64d-8255194051a4": {
+    "Nome": "Saia Curta",
+    "Descrição": "Saia curta de algodão",
+    "Preço": 69.9,
+    "Tamanho": "P",
+    "Cor": "Preto",
+    "Categoria": {
+      "ID_Categoria": 57443,
+      "Nome": "Saia",
+      "Descrição": "Saia para diferentes estilos, como curtas, longas e midi."
+    },
+    "Quantidade": 25
+  },
+  "e879f650-ba2c-4eea-acda-a851e1161b47": {
+    "Nome": "Shorts Jeans",
+    "Descrição": "Shorts jeans estilo destroyed",
+    "Preço": 79.9,
+    "Tamanho": "M",
+    "Cor": "Azul",
+    "Categoria": {
+      "ID_Categoria": 69932,
+      "Nome": "Shorts",
+      "Descrição": "Shorts para o verão e ocasiões informais."
+    },
+    "Quantidade": 30
+  },
+  "ff1d91ee-db8b-4620-a1c4-b425f33482ab": {
+    "Nome": "Shorts de Algodão",
+    "Descrição": "Shorts de algodão para o verão",
+    "Preço": 59.9,
+    "Tamanho": "G",
+    "Cor": "Branco",
+    "Categoria": {
+      "ID_Categoria": 69932,
+      "Nome": "Shorts",
+      "Descrição": "Shorts para o verão e ocasiões informais."
+    },
+    "Quantidade": 35
+  },
+  "d59cedf8-fb2d-4b82-b6db-44de2fb6ad54": {
+    "Nome": "Shorts Esportivo",
+    "Descrição": "Shorts esportivo para academia",
+    "Preço": 49.9,
+    "Tamanho": "P",
+    "Cor": "Preto",
+    "Categoria": {
+      "ID_Categoria": 69932,
+      "Nome": "Shorts",
+      "Descrição": "Shorts para o verão e ocasiões informais."
+    },
+    "Quantidade": 40
+  },
+  "2d613c07-37d9-4067-a2bc-5a33bfd732f6": {
+    "Nome": "Macacão Jeans",
+    "Descrição": "Macacão jeans estilo urbano",
+    "Preço": 189.9,
+    "Tamanho": "M",
+    "Cor": "Azul",
+    "Categoria": {
+      "ID_Categoria": 37425,
+      "Nome": "Macacões",
+      "Descrição": "Macacões femininos e masculinos para diversas ocasiões."
+    },
+    "Quantidade": 12
+  },
+  "fcbf05c4-e14a-40c6-9365-a417c473258a": {
+    "Nome": "Macacão Floral",
+    "Descrição": "Macacão floral feminino",
+    "Preço": 159.9,
+    "Tamanho": "G",
+    "Cor": "Rosa",
+    "Categoria": {
+      "ID_Categoria": 37425,
+      "Nome": "Macacões",
+      "Descrição": "Macacões femininos e masculinos para diversas ocasiões."
+    },
+    "Quantidade": 10
+  },
+  "00bb951f-9cb4-413f-b72d-213c13be49f0": {
+    "Nome": "Macacão Preto",
+    "Descrição": "Macacão preto elegante",
+    "Preço": 249.9,
+    "Tamanho": "M",
+    "Cor": "Preto",
+    "Categoria": {
+      "ID_Categoria": 37425,
+      "Nome": "Macacões",
+      "Descrição": "Macacões femininos e masculinos para diversas ocasiões."
+    },
+    "Quantidade": 8
+  },
+  "64619fd4-b9e4-41c1-93aa-9e0334d2e50e": {
+    "Nome": "Top de Esporte",
+    "Descrição": "Top esportivo para academia",
+    "Preço": 39.9,
+    "Tamanho": "P",
+    "Cor": "Azul",
+    "Categoria": {
+      "ID_Categoria": 44446,
+      "Nome": "Roupas de Esporte",
+      "Descrição": "Roupa de esporte como leggings, tops e shorts."
+    },
+    "Quantidade": 50
+  },
+  "49dafe02-20bc-463d-b0f7-85345541d548": {
+    "Nome": "Legging Esportiva",
+    "Descrição": "Legging esportiva com detalhe em neon",
+    "Preço": 79.9,
+    "Tamanho": "M",
+    "Cor": "Preto",
+    "Categoria": {
+      "ID_Categoria": 44446,
+      "Nome": "Roupas de Esporte",
+      "Descrição": "Roupa de esporte como leggings, tops e shorts."
+    },
+    "Quantidade": 45
+  },
+  "19344a8c-4771-4e7c-8491-2ca8174bfd80": {
+    "Nome": "Shorts de Corrida",
+    "Descrição": "Shorts de corrida com tecnologia de compressão",
+    "Preço": 89.9,
+    "Tamanho": "G",
+    "Cor": "Preto",
+    "Categoria": {
+      "ID_Categoria": 44446,
+      "Nome": "Roupas de Esporte",
+      "Descrição": "Roupa de esporte como leggings, tops e shorts."
+    },
+    "Quantidade": 35
+  },
+  "0c1b5b7a-388c-4273-ac38-8802ac95d288": {
+    "Nome": "Sutiã Lingerie",
+    "Descrição": "Sutiã de renda para lingerie",
+    "Preço": 49.9,
+    "Tamanho": "M",
+    "Cor": "Bege",
+    "Categoria": {
+      "ID_Categoria": 49171,
+      "Nome": "Roupas Íntimas",
+      "Descrição": "Roupas íntimas e acessórios, como lingerie e pijamas."
+    },
+    "Quantidade": 40
+  },
+  "69c0c0ef-b728-4f0d-9814-301a82d63671": {
+    "Nome": "Calcinha Lingerie",
+    "Descrição": "Calcinha de renda para lingerie",
+    "Preço": 29.9,
+    "Tamanho": "P",
+    "Cor": "Preto",
+    "Categoria": {
+      "ID_Categoria": 49171,
+      "Nome": "Roupas Íntimas",
+      "Descrição": "Roupas íntimas e acessórios, como lingerie e pijamas."
+    },
+    "Quantidade": 60
+  }
+}

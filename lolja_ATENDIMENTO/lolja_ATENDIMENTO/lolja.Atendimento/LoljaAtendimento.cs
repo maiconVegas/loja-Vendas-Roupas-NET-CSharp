@@ -284,11 +284,67 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
                     }
                 }
 
-                static void ExibirTelaVendedor()
+                void ExibirTelaVendedor()
                 {
                     Console.Clear();
                     new InterfaceVendedor().Imprimir();
-                    Console.WriteLine("Vendedor");
+                    try
+                    {
+                        //string email = "";
+                        //string senha = "";
+                        bool permitido = false;
+                        Console.WriteLine("\n\n");
+                        Console.Write("Email: ");
+                        string email = Console.ReadLine();
+                        Console.Write($"Senha: ");
+                        string senha = Console.ReadLine();
+                        foreach (var vendedor in vendedores)
+                        {
+                            if (vendedor.Autenticar(email, senha))
+                            {
+                                permitido = true;
+                                break;
+                            }
+                        }
+
+                        if (permitido)
+                        {
+                            Console.Clear();
+                            VendedorMenu();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Email e/ou Senha Incorreta!");
+                            Console.WriteLine("Pressione (1) - TENTAR DE NOVO");
+                            Console.WriteLine("Pressione (2) - SAIR");
+                            Console.Write("TECLA: ");
+                            string entrada = Console.ReadLine();
+                            if (!string.IsNullOrEmpty(entrada))
+                            {
+                                char tecla = entrada[0];
+                                if (tecla == '1')
+                                {
+                                    ExibirTelaVendedor();
+                                }
+                                else if (tecla == '2')
+                                {
+                                    Inicio();
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Pressione 1 ou 2");
+                                Thread.Sleep(1000);
+                                ExibirTelaVendedor();
+                            }
+                        }
+
+                    }
+                    catch (Exception)
+                    {
+
+                        Console.WriteLine("ERROOOOO");
+                    }
                 }
 
                 void ExibirTelaAnalista()
@@ -342,7 +398,7 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
                             {
                                 Console.WriteLine("Pressione 1 ou 2");
                                 Thread.Sleep(1000);
-                                ExibirTelaCliente();
+                                ExibirTelaAnalista();
                             }
                         }
 
@@ -494,34 +550,24 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
                                     AnalistaMenu();
                                     break;
                                 case 4:
-                                    Console.Clear();
-                                    //foreach (var item in listaDeVendas)
-                                    //{
-                                    //    Console.WriteLine(item.ID_Venda);
-                                    //    Console.WriteLine(item.Data_Venda);
-                                    //    Console.WriteLine(item.ItensVenda.Count);
-                                    //}
-                                    Console.ReadKey();
+                                    new AnalistaUtil().ExportarVendedores(vendedores);
                                     AnalistaMenu();
                                     break;
                                 case 5:
-                                    Console.Clear();
-                                    var venda = new ClienteService().FinalizarCompra(clienteLogado, listaDeItensVendas);
-                                    if (venda != null)
-                                    {
-                                        listaDeVendas.Add(venda);
-                                        listaDeItensVendas.Clear();
-                                    }
+                                    new AnalistaUtil().ExportarClientes(clientes);
                                     AnalistaMenu();
                                     break;
                                 case 6:
+                                    new AnalistaUtil().ExportarEstoque(estoque);
+                                    AnalistaMenu();
+                                    break;
+                                case 7:
                                     Console.Clear();
                                     foreach (char letter in "......Saindo.......")
                                     {
                                         Console.Write(letter);
                                         Thread.Sleep(50);
                                     }
-                                    clienteLogado = null;
                                     Console.Clear();
                                     Inicio();
                                     break;
@@ -544,6 +590,71 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
                     }
 
                 }
+
+                void VendedorMenu(){
+                    Console.Clear();
+                    new InterfaceVendedor().Menu();
+                    try
+                    {
+                        int tecla = -1;
+                        tecla = int.Parse(Console.ReadLine());
+                        if ((tecla == 1) || (tecla == 2) || (tecla == 3) || (tecla == 4))
+                        {
+                            switch (tecla)
+                            {
+                                case 1:
+                                    new VendedorService().ConsultarProdutos(estoque);
+                                    VendedorMenu();
+                                    break;
+                                case 2:
+                                    Cliente novoCliente = null;
+                                    novoCliente = new VendedorService().CadastrarCliente();
+                                    if (novoCliente != null)
+                                    {
+                                        clientes.Add(novoCliente);
+                                        VendedorMenu();
+                                        break;
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Não foi possível realizar o cadastro do cliente.");
+                                        Thread.Sleep(1000);
+                                        VendedorMenu();
+                                        break;
+                                    }
+                                case 3:
+                                    new AnalistaUtil().ExportarVendas(listaDeVendas);
+                                    VendedorMenu();
+                                    break;
+                                case 4:
+                                    Console.Clear();
+                                    foreach (char letter in "......Saindo.......")
+                                    {
+                                        Console.Write(letter);
+                                        Thread.Sleep(50);
+                                    }
+                                    Console.Clear();
+                                    Inicio();
+                                    break;                                    
+                                default:
+                                    Console.WriteLine("Opção inválida, por favor escolha um número entre 1 a 4");
+                                    Inicio();
+                                    break;
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("\nPor favor, digite apenas os números 1 a 4");
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("\nOpção inválida, por favor escolha um número entre 1 a 4");
+                        Thread.Sleep(2000);
+                        VendedorMenu();
+                    }
+                }
+
             }
 
         }

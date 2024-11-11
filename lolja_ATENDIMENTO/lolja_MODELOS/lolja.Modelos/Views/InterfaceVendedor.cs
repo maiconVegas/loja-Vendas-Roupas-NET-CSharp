@@ -17,5 +17,15 @@ namespace lolja_MODELOS.lolja.Modelos.Views
             Console.WriteLine("  VVV   EEEEE N   N DDDD   EEEEE  DDDD   OOO  R   R");
             Console.WriteLine();
         }
+
+        public void Menu()
+        {
+            Console.WriteLine("\n----- Menu -----");
+            Console.WriteLine("1. Consultar Estoque");
+            Console.WriteLine("2. Cadastrar Cliente");
+            Console.WriteLine("3. Vender para Cliente");
+            Console.WriteLine("4. Sair");
+            Console.Write("Escolha uma opção: ");
+        }
     }
 }

@@ -1,0 +1,102 @@
+[
+  {
+    "ID_Cliente": "9da4f598-74eb-4c4d-b240-1852962b62f7",
+    "Nome": "João Silva",
+    "Idade": 40,
+    "CPF": "123.456.789-01",
+    "Email": "joaosilva@email.com",
+    "EnderecoPessoa": {
+      "Rua": "Rua das Pedras",
+      "Numero": 300,
+      "Bairro": "Pelourinho",
+      "CEP": "40020-001",
+      "CidadeEndereco": {
+        "Nome": "Salvador",
+        "EstadoCidade": {
+          "Nome": "Bahia",
+          "Sigla": 4
+        }
+      }
+    }
+  },
+  {
+    "ID_Cliente": "8a97da7f-cf4c-47ce-9210-7a3b486ab2d4",
+    "Nome": "Maria Oliveira",
+    "Idade": 30,
+    "CPF": "234.567.890-12",
+    "Email": "mariaoliveira@email.com",
+    "EnderecoPessoa": {
+      "Rua": "Rua da Liberdade",
+      "Numero": 105,
+      "Bairro": "Liberdade",
+      "CEP": "30110-000",
+      "CidadeEndereco": {
+        "Nome": "Belo Horizonte",
+        "EstadoCidade": {
+          "Nome": "Minas Gerais",
+          "Sigla": 12
+        }
+      }
+    }
+  },
+  {
+    "ID_Cliente": "efdefc45-f7ef-45a6-b413-3e6e4e23b4bc",
+    "Nome": "Carlos Souza",
+    "Idade": 25,
+    "CPF": "345.678.901-23",
+    "Email": "carlossouza@email.com",
+    "EnderecoPessoa": {
+      "Rua": "Rua das Flores",
+      "Numero": 101,
+      "Bairro": "Jardim Paulista",
+      "CEP": "01001-000",
+      "CidadeEndereco": {
+        "Nome": "São Paulo",
+        "EstadoCidade": {
+          "Nome": "São Paulo",
+          "Sigla": 25
+        }
+      }
+    }
+  },
+  {
+    "ID_Cliente": "6b8ecfb5-1ed6-4446-bf18-9c6797aa28b8",
+    "Nome": "Ana Costa",
+    "Idade": 28,
+    "CPF": "456.789.012-34",
+    "Email": "anacosta@email.com",
+    "EnderecoPessoa": {
+      "Rua": "Avenida Paulista",
+      "Numero": 500,
+      "Bairro": "Bela Vista",
+      "CEP": "01310-000",
+      "CidadeEndereco": {
+        "Nome": "São Paulo",
+        "EstadoCidade": {
+          "Nome": "São Paulo",
+          "Sigla": 25
+        }
+      }
+    }
+  },
+  {
+    "ID_Cliente": "384980ca-ab0d-4cac-ad2f-015bef3a50c7",
+    "Nome": "Felipe Almeida",
+    "Idade": 35,
+    "CPF": "567.890.123-45",
+    "Email": "felipealmeida@email.com",
+    "EnderecoPessoa": {
+      "Rua": "Rua da Consolação",
+      "Numero": 900,
+      "Bairro": "Centro",
+      "CEP": "01302-001",
+      "CidadeEndereco": {
+        "Nome": "São Paulo",
+        "EstadoCidade": {
+          "Nome": "São Paulo",
+          "Sigla": 25
+        }
+      }
+    }
+  }
+]

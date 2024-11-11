@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lolja_ATENDIMENTO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20b2536c075823526251fe27b9c794ac94bbf0e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56e08f607a769f329d57d65c88510e62a4359500")]
 [assembly: System.Reflection.AssemblyProductAttribute("lolja_ATENDIMENTO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lolja_ATENDIMENTO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
