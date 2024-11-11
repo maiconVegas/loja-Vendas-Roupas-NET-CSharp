@@ -1,4 +1,5 @@
-﻿using lolja_MODELOS.lolja.Modelos.Models.Enderecos;
+﻿using lolja_ATENDIMENTO.ServiceJson;
+using lolja_MODELOS.lolja.Modelos.Models.Enderecos;
 using lolja_MODELOS.lolja.Modelos.Models.Pessoas;
 using lolja_MODELOS.lolja.Modelos.Models.Produtos;
 using lolja_MODELOS.lolja.Modelos.Models.Vendas;
@@ -139,12 +140,16 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
             Analista analista2 = new Analista(5500, "Cláudia Santos", 28, "234.567.890-12", endereco20, "senha456");
             analista2.Email = "claudiasantos.analista@email.com";
 
+            List<Analista> analistas = new List<Analista>() { analista1, analista2 };
+
             Vendedor vendedor1 = new Vendedor(3000, "Roberto Lima", 25, "345.678.901-23", endereco12, "senha789");
             vendedor1.Email = "robertolima.vendedor@email.com";
             Vendedor vendedor2 = new Vendedor(3500, "Tatiane Souza", 28, "456.789.012-34", endereco7, "senha101");
             vendedor2.Email = "tatianesouza.vendedor@email.com";
             Vendedor vendedor3 = new Vendedor(4000, "Gustavo Costa", 35, "567.890.123-45", endereco5, "senha112");
             vendedor3.Email = "gustavocosta.vendedor@email.com";
+
+            List<Vendedor> vendedores = new List<Vendedor>() {vendedor1, vendedor2, vendedor3};
 
             List<ItemVenda> listaDeItensVendas = new List<ItemVenda>();
             List<Venda> listaDeVendas = new List<Venda>();
@@ -286,11 +291,67 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
                     Console.WriteLine("Vendedor");
                 }
 
-                static void ExibirTelaAnalista()
+                void ExibirTelaAnalista()
                 {
                     Console.Clear();
                     new InterfaceAnalista().Imprimir();
-                    Console.WriteLine("Analista");
+                    try
+                    {
+                        string email = "";
+                        string senha = "";
+                        bool permitido = false;
+                        Console.WriteLine("\n\n");
+                        Console.Write("Email: ");
+                        email = Console.ReadLine();
+                        Console.Write($"Senha: ");
+                        senha = Console.ReadLine();
+                        foreach (var analista in analistas)
+                        {
+                            if (analista.Autenticar(email, senha))
+                            {
+                                permitido = true;
+                                break;
+                            }
+                        }
+
+                        if (permitido)
+                        {
+                            Console.Clear();
+                            AnalistaMenu();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Email e/ou Senha Incorreta!");
+                            Console.WriteLine("Pressione (1) - TENTAR DE NOVO");
+                            Console.WriteLine("Pressione (2) - SAIR");
+                            Console.Write("TECLA: ");
+                            string entrada = Console.ReadLine();
+                            if (!string.IsNullOrEmpty(entrada))
+                            {
+                                char tecla = entrada[0];
+                                if (tecla == '1')
+                                {
+                                    ExibirTelaAnalista();
+                                }
+                                else if (tecla == '2')
+                                {
+                                    Inicio();
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Pressione 1 ou 2");
+                                Thread.Sleep(1000);
+                                ExibirTelaCliente();
+                            }
+                        }
+
+                    }
+                    catch (Exception)
+                    {
+
+                        Console.WriteLine("ERROOOOO");
+                    }
                 }
 
                 void ClienteMenu()
@@ -406,6 +467,82 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
                         Thread.Sleep(2000);
                         ClienteMenu();
                     }
+                }
+
+                void AnalistaMenu()
+                {
+                    Console.Clear();
+                    new InterfaceAnalista().Menu();
+                    try
+                    {
+                        int tecla = -1;
+                        tecla = int.Parse(Console.ReadLine());
+                        if ((tecla == 1) || (tecla == 2) || (tecla == 3) || (tecla == 4) || (tecla == 5) || (tecla == 6) || (tecla == 7))
+                        {
+                            switch (tecla)
+                            {
+                                case 1:
+                                    new AnalistaService().ExibirVendedores(vendedores);
+                                    AnalistaMenu();
+                                    break;
+                                case 2:
+                                    new AnalistaService().ExibirClientes(clientes);
+                                    AnalistaMenu();
+                                    break;
+                                case 3:
+                                    new AnalistaUtil().ExportarVendas(listaDeVendas);
+                                    AnalistaMenu();
+                                    break;
+                                case 4:
+                                    Console.Clear();
+                                    //foreach (var item in listaDeVendas)
+                                    //{
+                                    //    Console.WriteLine(item.ID_Venda);
+                                    //    Console.WriteLine(item.Data_Venda);
+                                    //    Console.WriteLine(item.ItensVenda.Count);
+                                    //}
+                                    Console.ReadKey();
+                                    AnalistaMenu();
+                                    break;
+                                case 5:
+                                    Console.Clear();
+                                    var venda = new ClienteService().FinalizarCompra(clienteLogado, listaDeItensVendas);
+                                    if (venda != null)
+                                    {
+                                        listaDeVendas.Add(venda);
+                                        listaDeItensVendas.Clear();
+                                    }
+                                    AnalistaMenu();
+                                    break;
+                                case 6:
+                                    Console.Clear();
+                                    foreach (char letter in "......Saindo.......")
+                                    {
+                                        Console.Write(letter);
+                                        Thread.Sleep(50);
+                                    }
+                                    clienteLogado = null;
+                                    Console.Clear();
+                                    Inicio();
+                                    break;
+                                default:
+                                    Console.WriteLine("Opção inválida, por favor escolha um número entre 1 a 6");
+                                    Inicio();
+                                    break;
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("\nPor favor, digite apenas os números 1 a 7");
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("\nOpção inválida, por favor escolha um número entre 1 a 7");
+                        Thread.Sleep(2000);
+                        AnalistaMenu();
+                    }
+
                 }
             }
 

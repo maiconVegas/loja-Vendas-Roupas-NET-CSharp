@@ -335,7 +335,7 @@ Console.WriteLine(venda1.Preco_Total);
 // TESTE 12 - testando exportar  venda em json
 Console.WriteLine();
 Console.WriteLine();
-Console.WriteLine("/////////////////////////////   TESTANDO CLASSE VENDA   ////////////////////");
+Console.WriteLine("/////////////////////////////   TESTANDO exportar   ////////////////////");
 
 string json = JsonConvert.SerializeObject(venda1,
                     Formatting.Indented);

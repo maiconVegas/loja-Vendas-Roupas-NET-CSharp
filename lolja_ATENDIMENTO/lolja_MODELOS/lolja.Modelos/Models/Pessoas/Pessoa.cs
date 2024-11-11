@@ -11,7 +11,7 @@ namespace lolja_MODELOS.lolja.Modelos.Models.Pessoas
     {
         public string Nome { get; set; }
         public int Idade { get; set; }
-        private string CPF { get; set; }
+        public string CPF { get; private set; }
         public string Email { get; set; }
         public Endereco EnderecoPessoa { get; set; }
 

@@ -1,46 +1,163 @@
-{
-  "ID_Venda": "35cb2db6-52e2-4907-8acd-b205bfc6b5c6",
-  "Data_Venda": "2024-11-08T11:51:18.8097637-03:00",
-  "Comprador": {
-    "ID_Cliente": "5e46dc0c-54e9-4d27-8988-aa22001dffcc",
-    "Nome": "Maicon",
-    "Idade": 0,
-    "Email": "aaa@email.com",
-    "EnderecoPessoa": null
-  },
-  "ItensVenda": [
-    {
-      "Item": {
-        "ID_Produto": "2257a252-0b59-4c13-bc52-e95d7b36d7fc",
-        "Nome": "Camiseta Anime",
-        "Descricao": "Camiseta com estampa do anime Demon Slayer",
-        "Preco": 39.9,
-        "Tamanho": "G",
-        "Cor": "Azul",
-        "categoriaRoupa": {
-          "ID_Categoria": 47434,
-          "Nome": "Camisetas",
-          "Descricao": "Roupas de manga curta para diversas ocasiões."
+[
+  {
+    "ID_Venda": "de90e652-ef9d-4f79-95d4-ee86da8b3c1f",
+    "Data_Venda": "2024-11-11T15:04:54.7347202-03:00",
+    "Comprador": {
+      "ID_Cliente": "dadd59c5-a48f-46d0-949e-e5480ec6ad7a",
+      "Nome": "João Silva",
+      "Idade": 40,
+      "CPF": "123.456.789-01",
+      "Email": "joaosilva@email.com",
+      "EnderecoPessoa": {
+        "Rua": "Rua das Pedras",
+        "Numero": 300,
+        "Bairro": "Pelourinho",
+        "CEP": "40020-001",
+        "CidadeEndereco": {
+          "Nome": "Salvador",
+          "EstadoCidade": {
+            "Nome": "Bahia",
+            "Sigla": 4
+          }
         }
-      },
-      "Quantidade": 2
+      }
     },
-    {
-      "Item": {
-        "ID_Produto": "6fb6ab91-45a1-48fc-8511-8ef398d18786",
-        "Nome": "Camiseta Batman",
-        "Descricao": "Camiseta com estampa do Batman",
-        "Preco": 49.9,
-        "Tamanho": "M",
-        "Cor": "Preto",
-        "categoriaRoupa": {
-          "ID_Categoria": 47434,
-          "Nome": "Camisetas",
-          "Descricao": "Roupas de manga curta para diversas ocasiões."
-        }
+    "ItensVenda": [
+      {
+        "Item": {
+          "ID_Produto": "a43a782e-47ea-4f94-8205-858f67c2ec18",
+          "Nome": "Macacão Preto",
+          "Descricao": "Macacão preto elegante",
+          "Preco": 249.9,
+          "Tamanho": "M",
+          "Cor": "Preto",
+          "categoriaRoupa": {
+            "ID_Categoria": 80838,
+            "Nome": "Macacões",
+            "Descricao": "Macacões femininos e masculinos para diversas ocasiões."
+          }
+        },
+        "Quantidade": 2
       },
-      "Quantidade": 3
-    }
-  ],
-  "Preco_Total": 229.5
-}
+      {
+        "Item": {
+          "ID_Produto": "b6fc3913-086e-4078-b25a-812a7e04d97c",
+          "Nome": "Camiseta Batman",
+          "Descricao": "Camiseta com estampa do Batman",
+          "Preco": 49.9,
+          "Tamanho": "M",
+          "Cor": "Preto",
+          "categoriaRoupa": {
+            "ID_Categoria": 68846,
+            "Nome": "Camisetas",
+            "Descricao": "Roupas de manga curta para diversas ocasiões."
+          }
+        },
+        "Quantidade": 1
+      }
+    ],
+    "Preco_Total": 549.7
+  },
+  {
+    "ID_Venda": "62fcee2a-b0ed-4e7f-9e82-a45997110a29",
+    "Data_Venda": "2024-11-11T15:05:29.0717133-03:00",
+    "Comprador": {
+      "ID_Cliente": "dadd59c5-a48f-46d0-949e-e5480ec6ad7a",
+      "Nome": "João Silva",
+      "Idade": 40,
+      "CPF": "123.456.789-01",
+      "Email": "joaosilva@email.com",
+      "EnderecoPessoa": {
+        "Rua": "Rua das Pedras",
+        "Numero": 300,
+        "Bairro": "Pelourinho",
+        "CEP": "40020-001",
+        "CidadeEndereco": {
+          "Nome": "Salvador",
+          "EstadoCidade": {
+            "Nome": "Bahia",
+            "Sigla": 4
+          }
+        }
+      }
+    },
+    "ItensVenda": [
+      {
+        "Item": {
+          "ID_Produto": "a43a782e-47ea-4f94-8205-858f67c2ec18",
+          "Nome": "Macacão Preto",
+          "Descricao": "Macacão preto elegante",
+          "Preco": 249.9,
+          "Tamanho": "M",
+          "Cor": "Preto",
+          "categoriaRoupa": {
+            "ID_Categoria": 80838,
+            "Nome": "Macacões",
+            "Descricao": "Macacões femininos e masculinos para diversas ocasiões."
+          }
+        },
+        "Quantidade": 1
+      }
+    ],
+    "Preco_Total": 249.9
+  },
+  {
+    "ID_Venda": "42bec944-c4c3-4523-974d-a5f9f768b82f",
+    "Data_Venda": "2024-11-11T15:06:10.7029281-03:00",
+    "Comprador": {
+      "ID_Cliente": "03a74a9b-f3c2-4519-928d-a754e94461fb",
+      "Nome": "Felipe Almeida",
+      "Idade": 35,
+      "CPF": "567.890.123-45",
+      "Email": "felipealmeida@email.com",
+      "EnderecoPessoa": {
+        "Rua": "Rua da Consolação",
+        "Numero": 900,
+        "Bairro": "Centro",
+        "CEP": "01302-001",
+        "CidadeEndereco": {
+          "Nome": "São Paulo",
+          "EstadoCidade": {
+            "Nome": "São Paulo",
+            "Sigla": 25
+          }
+        }
+      }
+    },
+    "ItensVenda": [
+      {
+        "Item": {
+          "ID_Produto": "aa4234c0-dcb4-4020-bcaa-d36d6b19df2a",
+          "Nome": "Camiseta Anime",
+          "Descricao": "Camiseta com estampa do anime Demon Slayer",
+          "Preco": 39.9,
+          "Tamanho": "G",
+          "Cor": "Azul",
+          "categoriaRoupa": {
+            "ID_Categoria": 68846,
+            "Nome": "Camisetas",
+            "Descricao": "Roupas de manga curta para diversas ocasiões."
+          }
+        },
+        "Quantidade": 2
+      },
+      {
+        "Item": {
+          "ID_Produto": "e9a87be4-111e-4cca-8b85-b19e29084335",
+          "Nome": "Camiseta Star Wars",
+          "Descricao": "Camiseta com estampa do Star Wars",
+          "Preco": 59.9,
+          "Tamanho": "P",
+          "Cor": "Branco",
+          "categoriaRoupa": {
+            "ID_Categoria": 68846,
+            "Nome": "Camisetas",
+            "Descricao": "Roupas de manga curta para diversas ocasiões."
+          }
+        },
+        "Quantidade": 10
+      }
+    ],
+    "Preco_Total": 678.8
+  }
+]

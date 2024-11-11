@@ -145,6 +145,7 @@ namespace lolja_MODELOS.lolja.Modelos.Services
 
         public Venda FinalizarCompra(Cliente comprador, List<ItemVenda> itensVenda)
         {
+            var itensCopia = itensVenda.Select(item => new ItemVenda(item.Item, item.Quantidade)).ToList();
             Console.Clear();
             if (itensVenda != null && itensVenda.Count != 0)
             {
@@ -153,8 +154,8 @@ namespace lolja_MODELOS.lolja.Modelos.Services
                     Console.Write(letter);
                     Thread.Sleep(50);
                 }
-                ListarCarrinho(itensVenda);
-                Console.WriteLine($"Total do valor para o pagamento: {CalcularPrecoTotal(itensVenda).ToString("C")}");
+                ListarCarrinho(itensCopia);
+                Console.WriteLine($"Total do valor para o pagamento: {CalcularPrecoTotal(itensCopia).ToString("C")}");
                 Console.WriteLine($"Pressione Enter para Confirmar...");
                 Console.ReadKey();
                 Console.WriteLine("Pressione (S) - PAGAR");
@@ -172,7 +173,7 @@ namespace lolja_MODELOS.lolja.Modelos.Services
                             Console.WriteLine($"Pressione Enter para sair...");
                             Console.ReadKey();
                             Console.Clear();
-                            return new Venda(comprador, itensVenda);
+                            return new Venda(comprador, itensCopia);
                         case 'N':
                         case 'n':
                             Console.WriteLine("Compra Cancelada!");
