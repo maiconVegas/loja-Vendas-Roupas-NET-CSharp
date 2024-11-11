@@ -156,6 +156,7 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
 
             void Inicio()
             {
+                Console.Clear();   
                 new InterfaceInicio().IniciarInterface();
 
                 try
@@ -187,6 +188,7 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
                                         Console.Write(letter);
                                         Thread.Sleep(50);
                                     }
+                                    Environment.Exit(0);
                                     break;
                                 default:
                                     Console.WriteLine("Opção inválida, por favor escolha um número entre 1 a 4");
@@ -243,8 +245,30 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
                         else
                         {
                             Console.WriteLine("Email e/ou Senha Incorreta!");
-                            Thread.Sleep(1000);
-                            ExibirTelaCliente();
+                            Console.WriteLine("Pressione (1) - TENTAR DE NOVO");
+                            Console.WriteLine("Pressione (2) - SAIR");
+                            Console.Write("TECLA: ");
+                            string entrada = Console.ReadLine();
+                            if (!string.IsNullOrEmpty(entrada))
+                            {
+                                char tecla = entrada[0];
+                                if (tecla == '1')
+                                {
+                                    ExibirTelaCliente();
+                                }
+                                else if(tecla == '2')
+                                {
+                                    Inicio();
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Pressione 1 ou 2");
+                                Thread.Sleep(1000);
+                                ExibirTelaCliente();
+                            }
+
+                            //ExibirTelaCliente();
                         }
 
                     }
@@ -271,6 +295,7 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
 
                 void ClienteMenu()
                 {
+                    Console.Clear();
                     new InterfaceCliente().Menu();
                     try
                     {
@@ -298,15 +323,39 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
                                     Console.Clear();
                                     Console.Write("Digite o nome do produto: ");
                                     string nomep = Console.ReadLine();
-                                    new ClienteService().ConsultarProdutoPorNome(estoque, nomep);
-                                    Console.Write("Quantidade: ");
-                                    int qtd = int.Parse(Console.ReadLine());
-                                    listaDeItensVendas.Add(new ClienteService().AdicionarProdutoNoCarrinho(estoque, nomep, qtd));
-                                    Console.Clear();
-                                    foreach (char letter in "......Item Adicionado com Sucesso!.......")
+                                    if(new ClienteService().VerificarProduto(estoque, nomep))
                                     {
-                                        Console.Write(letter);
-                                        Thread.Sleep(50);
+                                        new ClienteService().ConsultarProdutoPorNome(estoque, nomep);
+                                        Console.Write("Quantidade: ");
+                                        int qtd = int.Parse(Console.ReadLine());
+                                        if (qtd > 0 && qtd <= estoque.ObterQuantidade(new ClienteService().RetornarProduto(estoque, nomep)))
+                                        {
+                                            listaDeItensVendas.Add(new ClienteService().AdicionarProdutoNoCarrinho(estoque, nomep, qtd));
+                                            Console.Clear();
+                                            foreach (char letter in "......Item Adicionado com Sucesso!.......")
+                                            {
+                                                Console.Write(letter);
+                                                Thread.Sleep(50);
+                                            }
+                                        }
+                                        else
+                                        {
+                                            foreach (char letter in "....Quantidade não permitido!....")
+                                            {
+                                                Console.Write(letter);
+                                                Thread.Sleep(50);
+                                            }
+                                            Console.Clear();
+                                            ClienteMenu();
+                                        }                                        
+                                    }
+                                    else
+                                    {
+                                        foreach (char letter in "......Item Indisponivel ou não existe!.......")
+                                        {
+                                            Console.Write(letter);
+                                            Thread.Sleep(50);
+                                        }
                                     }
                                     Console.Clear();
                                     ClienteMenu();
@@ -318,8 +367,12 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
                                     break;
                                 case 5:
                                     Console.Clear();
-                                    listaDeVendas.Add(new ClienteService().FinalizarCompra(clienteLogado, listaDeItensVendas));
-                                    listaDeItensVendas.Clear();
+                                    var venda = new ClienteService().FinalizarCompra(clienteLogado, listaDeItensVendas);
+                                    if (venda != null)
+                                    {
+                                        listaDeVendas.Add(venda);
+                                        listaDeItensVendas.Clear();
+                                    }
                                     ClienteMenu();
                                     break;
                                 case 6:
@@ -329,6 +382,8 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
                                         Console.Write(letter);
                                         Thread.Sleep(50);
                                     }
+                                    clienteLogado = null;
+                                    Console.Clear();
                                     Inicio();
                                     break;
                                 default:
@@ -347,8 +402,9 @@ namespace lolja_ATENDIMENTO.lolja.Atendimento
                     }
                     catch (Exception)
                     {
-
-                        Console.WriteLine("\nPor favor, digite apenas os números 1, 2, 3 ou 4."); ;
+                        Console.WriteLine("\nOpção inválida, por favor escolha um número entre 1 a 6");
+                        Thread.Sleep(2000);
+                        ClienteMenu();
                     }
                 }
             }

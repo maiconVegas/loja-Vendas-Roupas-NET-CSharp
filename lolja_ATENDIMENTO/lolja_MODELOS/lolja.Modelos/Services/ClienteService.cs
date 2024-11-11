@@ -41,6 +41,20 @@ namespace lolja_MODELOS.lolja.Modelos.Services
             Console.Clear();
         }
 
+        public Produto RetornarProduto(Estoque estoque, string nome)
+        {
+            foreach (var item in estoque.Itens)
+            {
+
+                if (item.Key.Nome.Equals(nome))
+                {
+                    return item.Key;
+                }
+
+            }
+            return null;
+        }
+
         public void ConsultarProdutoPorNome(Estoque estoque, string nome)
         {
             foreach (var item in estoque.Itens)
@@ -145,7 +159,7 @@ namespace lolja_MODELOS.lolja.Modelos.Services
                 Console.ReadKey();
                 Console.WriteLine("Pressione (S) - PAGAR");
                 Console.WriteLine("Pressione (N) - NÃO PAGAR");
-                Console.WriteLine("Tecla: ");
+                Console.Write("Tecla: ");
                 string entrada = Console.ReadLine();
                 if (!string.IsNullOrEmpty(entrada))
                 {
@@ -162,7 +176,10 @@ namespace lolja_MODELOS.lolja.Modelos.Services
                         case 'N':
                         case 'n':
                             Console.WriteLine("Compra Cancelada!");
-                            break;
+                            Console.WriteLine($"Pressione Enter para sair...");
+                            Console.ReadKey();
+                            Console.Clear();
+                            return null;
                         default:
                             Console.WriteLine("Tecla Inválida");
                             break;
@@ -182,6 +199,19 @@ namespace lolja_MODELOS.lolja.Modelos.Services
             Console.ReadKey();
             Console.Clear();
             return null;
+        }
+
+        public bool VerificarProduto(Estoque estoque, string nome)
+        {
+            foreach (var item in estoque.Itens)
+            {
+                if (item.Key.Nome.Equals(nome))
+                {
+                    return true;
+                }
+
+            }
+            return false;
         }
     }
 }
