@@ -1,23 +1,23 @@
 [
   {
-    "ID_Venda": "c56d7d50-318b-442d-b53b-637788f2cb28",
-    "Data_Venda": "2024-11-11T18:20:29.9648362-03:00",
+    "ID_Venda": "e7592a05-9a85-463c-9c61-7b6fe7b2c21f",
+    "Data_Venda": "2024-11-12T10:32:46.4870557-03:00",
     "Comprador": {
-      "ID_Cliente": "9c3743fc-3667-41aa-934e-da6b44ba0382",
-      "Nome": "Carlos",
-      "Idade": 21,
-      "CPF": "234.123.443-23",
-      "Email": "carlos@email.com",
+      "ID_Cliente": "8744447d-088e-400f-8f67-fe45a9bd8bfa",
+      "Nome": "João Silva",
+      "Idade": 40,
+      "CPF": "123.456.789-01",
+      "Email": "joaosilva@email.com",
       "EnderecoPessoa": {
-        "Rua": "321",
-        "Numero": 123,
-        "Bairro": "polairro",
-        "CEP": "23343-293",
+        "Rua": "Rua das Pedras",
+        "Numero": 300,
+        "Bairro": "Pelourinho",
+        "CEP": "40020-001",
         "CidadeEndereco": {
-          "Nome": "cidade nao conheco",
+          "Nome": "Salvador",
           "EstadoCidade": {
-            "Nome": "Sergipe",
-            "Sigla": 24
+            "Nome": "Bahia",
+            "Sigla": 4
           }
         }
       }
@@ -25,21 +25,80 @@
     "ItensVenda": [
       {
         "Item": {
-          "ID_Produto": "75e190c5-4049-4415-b07e-e167df90fb6f",
+          "ID_Produto": "03a416f3-b2c9-4336-b6db-b13a87e7fd1f",
           "Nome": "Camiseta Anime",
           "Descricao": "Camiseta com estampa do anime Demon Slayer",
           "Preco": 39.9,
           "Tamanho": "G",
           "Cor": "Azul",
           "categoriaRoupa": {
-            "ID_Categoria": 95654,
+            "ID_Categoria": 64942,
             "Nome": "Camisetas",
             "Descricao": "Roupas de manga curta para diversas ocasiões."
           }
         },
-        "Quantidade": 5
+        "Quantidade": 7
+      },
+      {
+        "Item": {
+          "ID_Produto": "8bc642ef-8db2-4347-aa5a-df1fc9256ca5",
+          "Nome": "Camiseta Batman",
+          "Descricao": "Camiseta com estampa do Batman",
+          "Preco": 49.9,
+          "Tamanho": "M",
+          "Cor": "Preto",
+          "categoriaRoupa": {
+            "ID_Categoria": 64942,
+            "Nome": "Camisetas",
+            "Descricao": "Roupas de manga curta para diversas ocasiões."
+          }
+        },
+        "Quantidade": 2
       }
     ],
-    "Preco_Total": 199.5
+    "Preco_Total": 379.1
+  },
+  {
+    "ID_Venda": "fa01d35e-07ad-48db-b2cc-565abc4d064d",
+    "Data_Venda": "2024-11-12T10:33:50.4053452-03:00",
+    "Comprador": {
+      "ID_Cliente": "2a17681a-0132-4b49-b596-69d266ab3e39",
+      "Nome": "Felipe Almeida",
+      "Idade": 35,
+      "CPF": "567.890.123-45",
+      "Email": "felipealmeida@email.com",
+      "EnderecoPessoa": {
+        "Rua": "Rua da Consolação",
+        "Numero": 900,
+        "Bairro": "Centro",
+        "CEP": "01302-001",
+        "CidadeEndereco": {
+          "Nome": "São Paulo",
+          "EstadoCidade": {
+            "Nome": "São Paulo",
+            "Sigla": 25
+          }
+        }
+      }
+    },
+    "ItensVenda": [
+      {
+        "Item": {
+          "ID_Produto": "e3cb0c21-5cc3-4f11-b9b7-a9f1d10cd8de",
+          "Nome": "Camiseta Star Wars",
+          "Descricao": "Camiseta com estampa do Star Wars",
+          "Preco": 59.9,
+          "Tamanho": "P",
+          "Cor": "Branco",
+          "categoriaRoupa": {
+            "ID_Categoria": 64942,
+            "Nome": "Camisetas",
+            "Descricao": "Roupas de manga curta para diversas ocasiões."
+          }
+        },
+        "Quantidade": 10
+      }
+    ],
+    "Preco_Total": 599.0
   }
 ]

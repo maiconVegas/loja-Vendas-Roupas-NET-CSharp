@@ -37,3 +37,4 @@ C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_AT
 C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\lolja_ATENDIMENTO.genruntimeconfig.cache
 C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\obj\Debug\net8.0\ref\lolja_ATENDIMENTO.dll
 C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_ATENDIMENTO\bin\Debug\net8.0\Newtonsoft.Json.dll
