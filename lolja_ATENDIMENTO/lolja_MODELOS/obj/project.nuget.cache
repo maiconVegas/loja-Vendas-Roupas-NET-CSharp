@@ -1,12 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "aTtRLcrmuI8=",
-=======
-  "dgSpecHash": "uNF9abzsAdY=",
->>>>>>> 0506096b6de04bb5fb0bcf80e96fd116cc70a923
   "success": true,
-  "projectFilePath": "C:\\Users\\Maicon Lipa\\Desktop\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja_MODELOS.csproj",
+  "projectFilePath": "C:\\Users\\maico\\OneDrive\\Área de Trabalho\\loja-Vendas-Roupas-NET-CSharp\\lolja_ATENDIMENTO\\lolja_MODELOS\\lolja_MODELOS.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
