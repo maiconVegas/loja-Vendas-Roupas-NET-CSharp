@@ -19,7 +19,7 @@ namespace lolja_ATENDIMENTO.ServiceJson
                     Formatting.Indented);
             try
             {
-                FileStream fs = new FileStream(@"C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\lolja.Modelos\Utils\vendas.json",
+                FileStream fs = new FileStream(@"C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\lolja.Modelos\Utils\vendas.json",
                     FileMode.Create);
                 using (StreamWriter streamwriter = new StreamWriter(fs))
                 {
@@ -48,7 +48,7 @@ namespace lolja_ATENDIMENTO.ServiceJson
                     Formatting.Indented);
             try
             {
-                FileStream fs = new FileStream(@"C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\lolja.Modelos\Utils\vendedores.json",
+                FileStream fs = new FileStream(@"C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\lolja.Modelos\Utils\vendedores.json",
                     FileMode.Create);
                 using (StreamWriter streamwriter = new StreamWriter(fs))
                 {
@@ -77,7 +77,7 @@ namespace lolja_ATENDIMENTO.ServiceJson
                     Formatting.Indented);
             try
             {
-                FileStream fs = new FileStream(@"C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\lolja.Modelos\Utils\clientes.json",
+                FileStream fs = new FileStream(@"C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\lolja.Modelos\Utils\clientes.json",
                     FileMode.Create);
                 using (StreamWriter streamwriter = new StreamWriter(fs))
                 {
@@ -125,7 +125,7 @@ namespace lolja_ATENDIMENTO.ServiceJson
                     Formatting.Indented);
             try
             {
-                FileStream fs = new FileStream(@"C:\Users\maico\OneDrive\Área de Trabalho\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\lolja.Modelos\Utils\estoque.json",
+                FileStream fs = new FileStream(@"C:\Users\Maicon Lipa\Desktop\loja-Vendas-Roupas-NET-CSharp\lolja_ATENDIMENTO\lolja_MODELOS\lolja.Modelos\Utils\estoque.json",
                     FileMode.Create);
                 using (StreamWriter streamwriter = new StreamWriter(fs))
                 {

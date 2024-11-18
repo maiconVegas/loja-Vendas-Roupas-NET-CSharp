@@ -1,6 +1,6 @@
 [
   {
-    "ID_Vendedor": "aef2ab74-89b4-4803-951a-49e59be4e30e",
+    "ID_Vendedor": "66f09f51-1bee-4ccf-afe2-e80a70b38d0a",
     "Cargo": "Vendedor",
     "Salario": 3000.0,
     "Nome": "Roberto Lima",
@@ -22,7 +22,7 @@
     }
   },
   {
-    "ID_Vendedor": "820f9f77-ff60-418a-90c5-31d824f6cc0e",
+    "ID_Vendedor": "1806c352-6b4a-4429-9e22-595759dcc963",
     "Cargo": "Vendedor",
     "Salario": 3500.0,
     "Nome": "Tatiane Souza",
@@ -44,7 +44,7 @@
     }
   },
   {
-    "ID_Vendedor": "4a46d3b0-ac17-40ed-a8f3-775fcae94d11",
+    "ID_Vendedor": "5a15d856-6315-43c5-9ec8-f0b3c62dde05",
     "Cargo": "Vendedor",
     "Salario": 4000.0,
     "Nome": "Gustavo Costa",
