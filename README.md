@@ -38,5 +38,4 @@ O sistema Lolja segue uma estrutura orientada a objetos, conforme mostrado no di
 ### Passos:
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/lolja.git
-   cd lolja
+   git clone https://github.com/maiconVegas/loja-Vendas-Roupas-NET-CSharp.git
